@@ -3,6 +3,9 @@
 args_len=$#
 args=$@
 
+# Create /opt/blindai directory
+mkdir -p /opt/blindai
+
 __help()
 {
     printf "\n\t\tThis command helps configure the BlindAI server model capabilities\n";
